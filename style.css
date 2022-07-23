@@ -1,0 +1,56 @@
+body {
+    background-image: url(mountain.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    display: flex;
+    margin: 10% 20%;
+}
+
+.container {
+    background-color:  #f5b7b1;
+    margin: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.container p {
+    padding: 5px 10px;
+}
+
+.shape {
+    background-color: black;
+    width: 400px;
+    height: 220px;
+    border-radius: 200px;
+    position: relative;
+    top: -60px;
+    margin-left: -50px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    margin-left: 140px;
+}
+
+.container:hover {
+    transform: scale(1.5);
+    z-index: 20;
+}
